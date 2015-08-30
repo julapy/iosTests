@@ -1,13 +1,18 @@
 #pragma once
 
-#include "ofApp.h"
+#include "ofMain.h"
+#include "ofxiOS.h"
+#include "ofxiOSExtras.h"
 
-class ofApp01 : public ofApp {
+class ofApp : public ofxiOSApp {
 	
 public:
     void setup();
     void update();
+    
     void draw();
+    void drawDimensions();
+    
     void exit();
     
     void touchDown(ofTouchEventArgs & touch);

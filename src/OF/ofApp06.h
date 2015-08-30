@@ -1,10 +1,8 @@
 #pragma once
 
-#include "ofMain.h"
-#include "ofxiOS.h"
-#include "ofxiOSExtras.h"
+#include "ofApp.h"
 
-class ofApp06 : public ofxiOSApp {
+class ofApp06 : public ofApp {
 	
 public:
     void setup();

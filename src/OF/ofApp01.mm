@@ -13,6 +13,21 @@ void ofApp01::update(){
 //--------------------------------------------------------------
 void ofApp01::draw(){
 	
+    drawDimensions();
+    
+    float s = 1.0;
+    if(ofxiOSGetOFWindow()->isRetinaEnabled() == true) {
+        s = ofxiOSGetOFWindow()->getRetinaScale();
+    }
+    int x = 20 * s;
+    int y = 50 * s;
+    int h = 20;
+    
+    ofSetColor(ofColor::white);
+    ofDrawBitmapString("frame num      = " + ofToString(ofGetFrameNum()), x, y+=h);
+    ofDrawBitmapString("frame rate     = " + ofToString(ofGetFrameRate()), x, y+=h);
+    ofDrawBitmapString("screen width   = " + ofToString(ofGetWidth()), x, y+=h);
+    ofDrawBitmapString("screen height  = " + ofToString(ofGetHeight()), x, y+=h);
 }
 
 //--------------------------------------------------------------

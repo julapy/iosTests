@@ -25,6 +25,7 @@
 		673A08B11B916CE900C39753 /* ofApp10.mm in Sources */ = {isa = PBXBuildFile; fileRef = 673A08A41B916CE900C39753 /* ofApp10.mm */; };
 		673A08B21B916CE900C39753 /* ofApp11.mm in Sources */ = {isa = PBXBuildFile; fileRef = 673A08A61B916CE900C39753 /* ofApp11.mm */; };
 		673A08B31B916CE900C39753 /* ofApp12.mm in Sources */ = {isa = PBXBuildFile; fileRef = 673A08A81B916CE900C39753 /* ofApp12.mm */; };
+		67C8C4611B92B512000F9E8D /* ofApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67C8C4601B92B512000F9E8D /* ofApp.mm */; };
 		67CE7BB71B8B54730095D0F9 /* AppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CE7BB61B8B54730095D0F9 /* AppViewController.xib */; };
 		67D43B671B9172CE0020C54A /* iosTests-Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D43B661B9172CE0020C54A /* iosTests-Media.xcassets */; };
 		67DFA53619F92A69003B3434 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFA53419F92A5E003B3434 /* Accelerate.framework */; };
@@ -91,6 +92,8 @@
 		673A08A61B916CE900C39753 /* ofApp11.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofApp11.mm; sourceTree = "<group>"; };
 		673A08A71B916CE900C39753 /* ofApp12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp12.h; sourceTree = "<group>"; };
 		673A08A81B916CE900C39753 /* ofApp12.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofApp12.mm; sourceTree = "<group>"; };
+		67C8C45F1B92B512000F9E8D /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		67C8C4601B92B512000F9E8D /* ofApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofApp.mm; sourceTree = "<group>"; };
 		67CE7BB61B8B54730095D0F9 /* AppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppViewController.xib; sourceTree = "<group>"; };
 		67D43B661B9172CE0020C54A /* iosTests-Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "iosTests-Media.xcassets"; sourceTree = "<group>"; };
 		67DFA53419F92A5E003B3434 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -196,6 +199,8 @@
 		67F841411B8AD9CD00C47ABA /* OF */ = {
 			isa = PBXGroup;
 			children = (
+				67C8C45F1B92B512000F9E8D /* ofApp.h */,
+				67C8C4601B92B512000F9E8D /* ofApp.mm */,
 				67F841421B8AD9CD00C47ABA /* ofApp01.h */,
 				67F841431B8AD9CD00C47ABA /* ofApp01.mm */,
 				673A08931B916CE900C39753 /* ofApp02.h */,
@@ -377,6 +382,7 @@
 				673A08A91B916CE900C39753 /* ofApp02.mm in Sources */,
 				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
 				67F841441B8AD9CD00C47ABA /* ofApp01.mm in Sources */,
+				67C8C4611B92B512000F9E8D /* ofApp.mm in Sources */,
 				673A08B01B916CE900C39753 /* ofApp09.mm in Sources */,
 				673A08B31B916CE900C39753 /* ofApp12.mm in Sources */,
 				673A08AB1B916CE900C39753 /* ofApp04.mm in Sources */,
