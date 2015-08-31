@@ -1,6 +1,15 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
+ofApp::ofApp() {
+    //
+}
+
+ofApp::~ofApp() {
+    //
+}
+
+//--------------------------------------------------------------
 void ofApp::setup(){
 
 }
@@ -49,7 +58,7 @@ void ofApp::drawDimensions() {
         ofDrawLine(0, 0, 0, -10);
     }
     ofPopMatrix();
-    ofDrawLine( p1.x, p1.y, p2.x, p2.y);
+    ofDrawLine(p1.x, p1.y, p2.x, p2.y);
     ofDrawBitmapString(ofToString(w), w*0.5-10, h-20);
     
     //-- draw height arrow.
